@@ -16,21 +16,17 @@
 
 This [bot](http://t.me/MumbleTelegramBot) informs you about events happening on your Murmur (Mumble) server.
 
+__TO DO: insert .gif__
+
 ### Requirements
 
 - Token from [@Botfather](https://telegram.me/botfather)
 - SSL certificate (I recommend [Let's Encrypt](https://letsencrypt.org/))
 - Webserver running [Python](https://www.python.org) (tested with [Apache](https://httpd.apache.org/) & [NGINX](https://www.nginx.com/) but others should work too)
-- [Healthchecks](https://healthchecks.io/#php) URL (optional)
+- Mumble/Murmur certificate
 - Google Cloud service account credentials (JSON) for accessing Google Sheets API & Google Drive API
-
-### Setup
-
-- Create two Google Spreadsheets called YOGI BOT DATABASE and ANALYTICS
-- Create a Google Forms form for feedback
-- Create a Google Cloud project with access to the Google Sheets API & Google Drive API and download the JSON
-- Give that service account editor rights for both spreadsheets
-- Run the script
+- [Sentry](https://docs.sentry.io/platforms/python/) key (optional)
+- [Healthchecks](https://healthchecks.io/#php) URL (optional)
 
 ### Contributing
 
