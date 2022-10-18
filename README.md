@@ -16,6 +16,8 @@
 
 This [bot](http://t.me/MumbleTelegramBot) informs you about events happening on your Murmur (Mumble) server.
 
+I stopped the development because I do not use Mumble so often anymore.
+
 __TO DO: insert .gif__
 
 ### Requirements
